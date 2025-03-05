@@ -11,6 +11,25 @@
 		260012722D78E6290004EDB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012712D78E6290004EDB0 /* ContentView.swift */; };
 		260012742D78E62C0004EDB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 260012732D78E62C0004EDB0 /* Assets.xcassets */; };
 		260012772D78E62C0004EDB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 260012762D78E62C0004EDB0 /* Preview Assets.xcassets */; };
+		260012802D78E6A30004EDB0 /* BabyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600127F2D78E6A30004EDB0 /* BabyModel.swift */; };
+		260012822D78E6C10004EDB0 /* ReminderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012812D78E6C10004EDB0 /* ReminderModel.swift */; };
+		260012842D78E6D70004EDB0 /* BlogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012832D78E6D70004EDB0 /* BlogModel.swift */; };
+		260012862D78E6F40004EDB0 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012852D78E6F40004EDB0 /* SettingsModel.swift */; };
+		260012892D78E7480004EDB0 /* BabyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012882D78E7480004EDB0 /* BabyViewModel.swift */; };
+		2600128B2D78E76A0004EDB0 /* ReminderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600128A2D78E76A0004EDB0 /* ReminderViewModel.swift */; };
+		2600128D2D78E7880004EDB0 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600128C2D78E7880004EDB0 /* SettingsViewModel.swift */; };
+		2600128F2D78E7AC0004EDB0 /* BlogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600128E2D78E7AC0004EDB0 /* BlogViewModel.swift */; };
+		260012932D78E7EA0004EDB0 /* BabyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012922D78E7EA0004EDB0 /* BabyView.swift */; };
+		2600129C2D78E9090004EDB0 /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600129B2D78E9090004EDB0 /* ReminderView.swift */; };
+		2600129E2D78E93C0004EDB0 /* ReminderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600129D2D78E93C0004EDB0 /* ReminderDetailView.swift */; };
+		260012A02D78E9750004EDB0 /* BabyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600129F2D78E9750004EDB0 /* BabyDetailView.swift */; };
+		260012A32D78E9B50004EDB0 /* BlogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012A22D78E9B50004EDB0 /* BlogView.swift */; };
+		260012A52D78E9D20004EDB0 /* BlogDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012A42D78E9D20004EDB0 /* BlogDetailView.swift */; };
+		260012A82D78EA050004EDB0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012A72D78EA050004EDB0 /* SettingsView.swift */; };
+		260012AA2D78EA2F0004EDB0 /* SettingsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012A92D78EA2F0004EDB0 /* SettingsDetailView.swift */; };
+		260012AD2D78EA950004EDB0 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012AC2D78EA950004EDB0 /* APIService.swift */; };
+		260012AF2D78EAC40004EDB0 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012AE2D78EAC40004EDB0 /* NotificationService.swift */; };
+		260012B22D78EAEC0004EDB0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012B12D78EAEC0004EDB0 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +38,25 @@
 		260012712D78E6290004EDB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		260012732D78E62C0004EDB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		260012762D78E62C0004EDB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2600127F2D78E6A30004EDB0 /* BabyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyModel.swift; sourceTree = "<group>"; };
+		260012812D78E6C10004EDB0 /* ReminderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderModel.swift; sourceTree = "<group>"; };
+		260012832D78E6D70004EDB0 /* BlogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogModel.swift; sourceTree = "<group>"; };
+		260012852D78E6F40004EDB0 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		260012882D78E7480004EDB0 /* BabyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyViewModel.swift; sourceTree = "<group>"; };
+		2600128A2D78E76A0004EDB0 /* ReminderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewModel.swift; sourceTree = "<group>"; };
+		2600128C2D78E7880004EDB0 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		2600128E2D78E7AC0004EDB0 /* BlogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogViewModel.swift; sourceTree = "<group>"; };
+		260012922D78E7EA0004EDB0 /* BabyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyView.swift; sourceTree = "<group>"; };
+		2600129B2D78E9090004EDB0 /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
+		2600129D2D78E93C0004EDB0 /* ReminderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailView.swift; sourceTree = "<group>"; };
+		2600129F2D78E9750004EDB0 /* BabyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyDetailView.swift; sourceTree = "<group>"; };
+		260012A22D78E9B50004EDB0 /* BlogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogView.swift; sourceTree = "<group>"; };
+		260012A42D78E9D20004EDB0 /* BlogDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogDetailView.swift; sourceTree = "<group>"; };
+		260012A72D78EA050004EDB0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		260012A92D78EA2F0004EDB0 /* SettingsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDetailView.swift; sourceTree = "<group>"; };
+		260012AC2D78EA950004EDB0 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		260012AE2D78EAC40004EDB0 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		260012B12D78EAEC0004EDB0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +73,11 @@
 		260012632D78E6290004EDB0 = {
 			isa = PBXGroup;
 			children = (
+				260012B02D78EACB0004EDB0 /* Utils */,
+				260012AB2D78EA590004EDB0 /* Services */,
+				260012902D78E7BA0004EDB0 /* View */,
+				260012872D78E70B0004EDB0 /* ViewModel */,
+				2600127E2D78E64B0004EDB0 /* Model */,
 				2600126E2D78E6290004EDB0 /* HappyBaby */,
 				2600126D2D78E6290004EDB0 /* Products */,
 			);
@@ -65,6 +108,92 @@
 				260012762D78E62C0004EDB0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2600127E2D78E64B0004EDB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2600127F2D78E6A30004EDB0 /* BabyModel.swift */,
+				260012812D78E6C10004EDB0 /* ReminderModel.swift */,
+				260012852D78E6F40004EDB0 /* SettingsModel.swift */,
+				260012832D78E6D70004EDB0 /* BlogModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		260012872D78E70B0004EDB0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				260012882D78E7480004EDB0 /* BabyViewModel.swift */,
+				2600128C2D78E7880004EDB0 /* SettingsViewModel.swift */,
+				2600128A2D78E76A0004EDB0 /* ReminderViewModel.swift */,
+				2600128E2D78E7AC0004EDB0 /* BlogViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		260012902D78E7BA0004EDB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				260012A62D78E9E10004EDB0 /* Settings */,
+				260012A12D78E98E0004EDB0 /* Blog */,
+				2600129A2D78E8E60004EDB0 /* Reminder */,
+				260012912D78E7C80004EDB0 /* Baby */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		260012912D78E7C80004EDB0 /* Baby */ = {
+			isa = PBXGroup;
+			children = (
+				260012922D78E7EA0004EDB0 /* BabyView.swift */,
+				2600129F2D78E9750004EDB0 /* BabyDetailView.swift */,
+			);
+			path = Baby;
+			sourceTree = "<group>";
+		};
+		2600129A2D78E8E60004EDB0 /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				2600129B2D78E9090004EDB0 /* ReminderView.swift */,
+				2600129D2D78E93C0004EDB0 /* ReminderDetailView.swift */,
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
+		260012A12D78E98E0004EDB0 /* Blog */ = {
+			isa = PBXGroup;
+			children = (
+				260012A22D78E9B50004EDB0 /* BlogView.swift */,
+				260012A42D78E9D20004EDB0 /* BlogDetailView.swift */,
+			);
+			path = Blog;
+			sourceTree = "<group>";
+		};
+		260012A62D78E9E10004EDB0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				260012A72D78EA050004EDB0 /* SettingsView.swift */,
+				260012A92D78EA2F0004EDB0 /* SettingsDetailView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		260012AB2D78EA590004EDB0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				260012AC2D78EA950004EDB0 /* APIService.swift */,
+				260012AE2D78EAC40004EDB0 /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		260012B02D78EACB0004EDB0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				260012B12D78EAEC0004EDB0 /* Constants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +266,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				260012862D78E6F40004EDB0 /* SettingsModel.swift in Sources */,
+				260012AD2D78EA950004EDB0 /* APIService.swift in Sources */,
+				260012A52D78E9D20004EDB0 /* BlogDetailView.swift in Sources */,
+				260012892D78E7480004EDB0 /* BabyViewModel.swift in Sources */,
+				2600128F2D78E7AC0004EDB0 /* BlogViewModel.swift in Sources */,
+				260012AA2D78EA2F0004EDB0 /* SettingsDetailView.swift in Sources */,
 				260012722D78E6290004EDB0 /* ContentView.swift in Sources */,
+				260012A82D78EA050004EDB0 /* SettingsView.swift in Sources */,
+				260012AF2D78EAC40004EDB0 /* NotificationService.swift in Sources */,
+				260012822D78E6C10004EDB0 /* ReminderModel.swift in Sources */,
+				2600129E2D78E93C0004EDB0 /* ReminderDetailView.swift in Sources */,
+				260012B22D78EAEC0004EDB0 /* Constants.swift in Sources */,
+				2600128B2D78E76A0004EDB0 /* ReminderViewModel.swift in Sources */,
+				260012A32D78E9B50004EDB0 /* BlogView.swift in Sources */,
+				2600129C2D78E9090004EDB0 /* ReminderView.swift in Sources */,
+				260012932D78E7EA0004EDB0 /* BabyView.swift in Sources */,
 				260012702D78E6290004EDB0 /* HappyBabyApp.swift in Sources */,
+				260012802D78E6A30004EDB0 /* BabyModel.swift in Sources */,
+				260012A02D78E9750004EDB0 /* BabyDetailView.swift in Sources */,
+				260012842D78E6D70004EDB0 /* BlogModel.swift in Sources */,
+				2600128D2D78E7880004EDB0 /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
