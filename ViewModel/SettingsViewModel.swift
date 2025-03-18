@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+
+var x = 5
+
+var y = 5
+
+
+
+var sonuc = x + y
+
+
