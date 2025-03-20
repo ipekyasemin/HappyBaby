@@ -9,10 +9,41 @@ import SwiftUI
 
 struct BabyInformationView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    
+        
+        ZStack{
+            Image("bilgiler")
+                .resizable()
+                .cornerRadius(60)
+                .frame(width: 350)
+                .frame(height: 700)
+       
+           
+            VStack{
+                Text("BEBEK BİLGİLERİ")
+                    .bold()
+                    .font(.title)
+                    .foregroundColor(.blue)
+                
+                Text("Bebeğin Boyu")
+                    .font(.title2)
+                    .bold()
+                    .foregroundColor(.blue)
+    
+
+                
+            }
+     
+
+        }
+    
+       
     }
+    
+    
 }
 
 #Preview {
     BabyInformationView()
 }
+
