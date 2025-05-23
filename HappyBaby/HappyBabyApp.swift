@@ -11,9 +11,13 @@ import SwiftUI
 struct HappyBabyApp: App {
     var body: some Scene {
         WindowGroup {
+<<<<<<< HEAD
           //  ContentView()
             LoginView()
             
+=======
+            LoginView()
+>>>>>>> main
         }
     }
 }
