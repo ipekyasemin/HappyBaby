@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct SetPasswordView: View {
-    @StateObject private var viewModel = SetNewPasswordViewModel()  // ViewModel'i bağla
+    @StateObject private var viewModel = SetNewPasswordViewModel()
     
     var body: some View {
         NavigationView {
             ZStack {
-                // Arka plan degrade (turuncu)
+               
                 LinearGradient(gradient: Gradient(colors: [Color.orange.opacity(0.5), Color.white]), startPoint: .top, endPoint: .bottom)
                     .edgesIgnoringSafeArea(.all)
                 
@@ -30,12 +30,11 @@ struct SetPasswordView: View {
                             .foregroundColor(.gray)
                         
                         VStack(spacing: 15) {
-                            // Yeni Şifre TextField
+                         
                             SecureField("New Password", text: $viewModel.newPassword)
                                 .padding()
                                 .background(RoundedRectangle(cornerRadius: 12).fill(Color.white).shadow(radius: 2))
-                            
-                            // Şifre Onayı TextField
+                 
                             SecureField("Confirm Password", text: $viewModel.confirmPassword)
                                 .padding()
                                 .background(RoundedRectangle(cornerRadius: 12).fill(Color.white).shadow(radius: 2))
@@ -70,7 +69,7 @@ struct SetPasswordView: View {
                 }
                 .padding(.top, 50)
             }
-            .navigationBarHidden(true)  // Geri butonu olmadan tam ekran gösterim
+            
         }
     }
 }

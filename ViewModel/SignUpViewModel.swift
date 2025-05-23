@@ -18,10 +18,8 @@ class SignUpViewModel: ObservableObject {
     @Published var isSignedUp: Bool = false
     
     func signUp() {
-        // Kayıt işlemi
         guard isValidInput() else { return }
         
-        // API çağrısı simülasyonu
         print("Kayıt başarılı: \(email)")
         isSignedUp = true
     }

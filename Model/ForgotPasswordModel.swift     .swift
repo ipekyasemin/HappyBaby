@@ -5,7 +5,6 @@
 //  Created by yasemin ipek on 23.03.2025.
 //
 
-// ForgotPasswordModel.swift
 import Foundation
 
 struct ForgotPasswordModel {

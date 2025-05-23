@@ -79,14 +79,12 @@ struct SignUpView: View {
                     
                     Spacer()
                     
-                   
                     .padding(.bottom, 20)
                     .padding(.horizontal, 30)
                 }
                 .padding(.top, 50)
             }
-            .navigationTitle("")
-            .navigationBarHidden(true)
+           
         }
     }
 }

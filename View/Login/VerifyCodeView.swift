@@ -7,12 +7,12 @@
 import SwiftUI
 
 struct VerifyCodeView: View {
-    @StateObject private var viewModel = VerifyCodeViewModel()  // ViewModel'i bağla
+    @StateObject private var viewModel = VerifyCodeViewModel()
     
     var body: some View {
         NavigationView {
             ZStack {
-                // Arka plan degrade (turuncu)
+    
                 LinearGradient(gradient: Gradient(colors: [Color.orange.opacity(0.5), Color.white]), startPoint: .top, endPoint: .bottom)
                     .edgesIgnoringSafeArea(.all)
                 

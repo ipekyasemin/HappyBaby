@@ -12,7 +12,7 @@ struct LoginView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                // Daha estetik bir degrade arkaplan
+                
                 LinearGradient(gradient: Gradient(colors: [Color.orange.opacity(0.5), Color.white]), startPoint: .top, endPoint: .bottom)
                     .edgesIgnoringSafeArea(.all)
 
@@ -121,4 +121,5 @@ struct Login_Previews: PreviewProvider {
         LoginView()
     }
 }
+
 

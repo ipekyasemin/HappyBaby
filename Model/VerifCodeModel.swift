@@ -5,7 +5,7 @@
 //  Created by yasemin ipek on 23.03.2025.
 //
 
-// VerifyCodeModel.swift
+
 import Foundation
 
 struct VerifyCodeModel {
