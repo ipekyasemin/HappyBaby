@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+
+struct BabyInformation: Codable { //Codable: JSON verisini model nesnelerine (deserialization) veya model nesnelerini JSON'a
+                             // (serialization) dönüştürmek için kullanılır
+    var boy: Int
+    var yas: Int
+    var cinsiyet: String
+    var tarih: Date
+    
+}
+
