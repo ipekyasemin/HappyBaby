@@ -16,3 +16,4 @@ struct BabyInformation: Codable { //Codable: JSON verisini model nesnelerine (de
     var tarih: Date
     
 }
+
