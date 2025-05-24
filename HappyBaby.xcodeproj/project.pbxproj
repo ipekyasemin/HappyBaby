@@ -30,6 +30,20 @@
 		260012AD2D78EA950004EDB0 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012AC2D78EA950004EDB0 /* APIService.swift */; };
 		260012AF2D78EAC40004EDB0 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012AE2D78EAC40004EDB0 /* NotificationService.swift */; };
 		260012B22D78EAEC0004EDB0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012B12D78EAEC0004EDB0 /* Constants.swift */; };
+		E963D9AC2DE1CAC7008D281D /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963D9AB2DE1CAC7008D281D /* AddReminderView.swift */; };
+		E963D9AE2DE1D39D008D281D /* SleepEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963D9AD2DE1D39D008D281D /* SleepEntry.swift */; };
+		E963D9B02DE1D3BD008D281D /* SleepTrackingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963D9AF2DE1D3BD008D281D /* SleepTrackingViewModel.swift */; };
+		E963D9B22DE1D3F4008D281D /* SleepTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963D9B12DE1D3F4008D281D /* SleepTrackingView.swift */; };
+		E963D9B42DE1D420008D281D /* SleepChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963D9B32DE1D420008D281D /* SleepChartView.swift */; };
+		E963D9B72DE1D6DF008D281D /* FeedingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963D9B62DE1D6DF008D281D /* FeedingEntry.swift */; };
+		E963D9B92DE1D709008D281D /* FeedingTrackingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963D9B82DE1D709008D281D /* FeedingTrackingViewModel.swift */; };
+		E963D9BB2DE1D72E008D281D /* FeedingTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963D9BA2DE1D72E008D281D /* FeedingTrackingView.swift */; };
+		E963D9BD2DE1D872008D281D /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963D9BC2DE1D872008D281D /* Exercise.swift */; };
+		E963D9BF2DE1D892008D281D /* ExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963D9BE2DE1D892008D281D /* ExerciseViewModel.swift */; };
+		E963D9C12DE1D8B0008D281D /* ExerciseTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963D9C02DE1D8B0008D281D /* ExerciseTrackingView.swift */; };
+		E963D9C32DE1D93D008D281D /* BookToyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963D9C22DE1D93D008D281D /* BookToyItem.swift */; };
+		E963D9C52DE1D953008D281D /* BooksToysViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963D9C42DE1D953008D281D /* BooksToysViewModel.swift */; };
+		E963D9C72DE1D970008D281D /* BooksToysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963D9C62DE1D970008D281D /* BooksToysView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +71,20 @@
 		260012AC2D78EA950004EDB0 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		260012AE2D78EAC40004EDB0 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		260012B12D78EAEC0004EDB0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E963D9AB2DE1CAC7008D281D /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
+		E963D9AD2DE1D39D008D281D /* SleepEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepEntry.swift; sourceTree = "<group>"; };
+		E963D9AF2DE1D3BD008D281D /* SleepTrackingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackingViewModel.swift; sourceTree = "<group>"; };
+		E963D9B12DE1D3F4008D281D /* SleepTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackingView.swift; sourceTree = "<group>"; };
+		E963D9B32DE1D420008D281D /* SleepChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepChartView.swift; sourceTree = "<group>"; };
+		E963D9B62DE1D6DF008D281D /* FeedingEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingEntry.swift; sourceTree = "<group>"; };
+		E963D9B82DE1D709008D281D /* FeedingTrackingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingTrackingViewModel.swift; sourceTree = "<group>"; };
+		E963D9BA2DE1D72E008D281D /* FeedingTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingTrackingView.swift; sourceTree = "<group>"; };
+		E963D9BC2DE1D872008D281D /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		E963D9BE2DE1D892008D281D /* ExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewModel.swift; sourceTree = "<group>"; };
+		E963D9C02DE1D8B0008D281D /* ExerciseTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTrackingView.swift; sourceTree = "<group>"; };
+		E963D9C22DE1D93D008D281D /* BookToyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookToyItem.swift; sourceTree = "<group>"; };
+		E963D9C42DE1D953008D281D /* BooksToysViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksToysViewModel.swift; sourceTree = "<group>"; };
+		E963D9C62DE1D970008D281D /* BooksToysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksToysView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +145,10 @@
 				260012812D78E6C10004EDB0 /* ReminderModel.swift */,
 				260012852D78E6F40004EDB0 /* SettingsModel.swift */,
 				260012832D78E6D70004EDB0 /* BlogModel.swift */,
+				E963D9AD2DE1D39D008D281D /* SleepEntry.swift */,
+				E963D9B62DE1D6DF008D281D /* FeedingEntry.swift */,
+				E963D9BC2DE1D872008D281D /* Exercise.swift */,
+				E963D9C22DE1D93D008D281D /* BookToyItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -128,6 +160,10 @@
 				2600128C2D78E7880004EDB0 /* SettingsViewModel.swift */,
 				2600128A2D78E76A0004EDB0 /* ReminderViewModel.swift */,
 				2600128E2D78E7AC0004EDB0 /* BlogViewModel.swift */,
+				E963D9AF2DE1D3BD008D281D /* SleepTrackingViewModel.swift */,
+				E963D9B82DE1D709008D281D /* FeedingTrackingViewModel.swift */,
+				E963D9BE2DE1D892008D281D /* ExerciseViewModel.swift */,
+				E963D9C42DE1D953008D281D /* BooksToysViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -148,6 +184,11 @@
 			children = (
 				260012922D78E7EA0004EDB0 /* BabyView.swift */,
 				2600129F2D78E9750004EDB0 /* BabyDetailView.swift */,
+				E963D9B12DE1D3F4008D281D /* SleepTrackingView.swift */,
+				E963D9B32DE1D420008D281D /* SleepChartView.swift */,
+				E963D9BA2DE1D72E008D281D /* FeedingTrackingView.swift */,
+				E963D9C02DE1D8B0008D281D /* ExerciseTrackingView.swift */,
+				E963D9C62DE1D970008D281D /* BooksToysView.swift */,
 			);
 			path = Baby;
 			sourceTree = "<group>";
@@ -157,6 +198,7 @@
 			children = (
 				2600129B2D78E9090004EDB0 /* ReminderView.swift */,
 				2600129D2D78E93C0004EDB0 /* ReminderDetailView.swift */,
+				E963D9AB2DE1CAC7008D281D /* AddReminderView.swift */,
 			);
 			path = Reminder;
 			sourceTree = "<group>";
@@ -268,8 +310,10 @@
 			files = (
 				260012862D78E6F40004EDB0 /* SettingsModel.swift in Sources */,
 				260012AD2D78EA950004EDB0 /* APIService.swift in Sources */,
+				E963D9B92DE1D709008D281D /* FeedingTrackingViewModel.swift in Sources */,
 				260012A52D78E9D20004EDB0 /* BlogDetailView.swift in Sources */,
 				260012892D78E7480004EDB0 /* BabyViewModel.swift in Sources */,
+				E963D9BD2DE1D872008D281D /* Exercise.swift in Sources */,
 				2600128F2D78E7AC0004EDB0 /* BlogViewModel.swift in Sources */,
 				260012AA2D78EA2F0004EDB0 /* SettingsDetailView.swift in Sources */,
 				260012722D78E6290004EDB0 /* ContentView.swift in Sources */,
@@ -278,12 +322,24 @@
 				260012822D78E6C10004EDB0 /* ReminderModel.swift in Sources */,
 				2600129E2D78E93C0004EDB0 /* ReminderDetailView.swift in Sources */,
 				260012B22D78EAEC0004EDB0 /* Constants.swift in Sources */,
+				E963D9C32DE1D93D008D281D /* BookToyItem.swift in Sources */,
 				2600128B2D78E76A0004EDB0 /* ReminderViewModel.swift in Sources */,
 				260012A32D78E9B50004EDB0 /* BlogView.swift in Sources */,
+				E963D9B72DE1D6DF008D281D /* FeedingEntry.swift in Sources */,
+				E963D9C52DE1D953008D281D /* BooksToysViewModel.swift in Sources */,
+				E963D9B22DE1D3F4008D281D /* SleepTrackingView.swift in Sources */,
+				E963D9B42DE1D420008D281D /* SleepChartView.swift in Sources */,
+				E963D9BF2DE1D892008D281D /* ExerciseViewModel.swift in Sources */,
 				2600129C2D78E9090004EDB0 /* ReminderView.swift in Sources */,
+				E963D9B02DE1D3BD008D281D /* SleepTrackingViewModel.swift in Sources */,
 				260012932D78E7EA0004EDB0 /* BabyView.swift in Sources */,
 				260012702D78E6290004EDB0 /* HappyBabyApp.swift in Sources */,
 				260012802D78E6A30004EDB0 /* BabyModel.swift in Sources */,
+				E963D9C72DE1D970008D281D /* BooksToysView.swift in Sources */,
+				E963D9AE2DE1D39D008D281D /* SleepEntry.swift in Sources */,
+				E963D9AC2DE1CAC7008D281D /* AddReminderView.swift in Sources */,
+				E963D9C12DE1D8B0008D281D /* ExerciseTrackingView.swift in Sources */,
+				E963D9BB2DE1D72E008D281D /* FeedingTrackingView.swift in Sources */,
 				260012A02D78E9750004EDB0 /* BabyDetailView.swift in Sources */,
 				260012842D78E6D70004EDB0 /* BlogModel.swift in Sources */,
 				2600128D2D78E7880004EDB0 /* SettingsViewModel.swift in Sources */,
