@@ -21,7 +21,6 @@
 		2600128F2D78E7AC0004EDB0 /* BlogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600128E2D78E7AC0004EDB0 /* BlogViewModel.swift */; };
 		260012932D78E7EA0004EDB0 /* BabyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012922D78E7EA0004EDB0 /* BabyView.swift */; };
 		2600129C2D78E9090004EDB0 /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600129B2D78E9090004EDB0 /* ReminderView.swift */; };
-		2600129E2D78E93C0004EDB0 /* ReminderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600129D2D78E93C0004EDB0 /* ReminderDetailView.swift */; };
 		260012A02D78E9750004EDB0 /* BabyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2600129F2D78E9750004EDB0 /* BabyDetailView.swift */; };
 		260012A32D78E9B50004EDB0 /* BlogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012A22D78E9B50004EDB0 /* BlogView.swift */; };
 		260012A52D78E9D20004EDB0 /* BlogDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012A42D78E9D20004EDB0 /* BlogDetailView.swift */; };
@@ -30,7 +29,7 @@
 		260012AD2D78EA950004EDB0 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012AC2D78EA950004EDB0 /* APIService.swift */; };
 		260012AF2D78EAC40004EDB0 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012AE2D78EAC40004EDB0 /* NotificationService.swift */; };
 		260012B22D78EAEC0004EDB0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012B12D78EAEC0004EDB0 /* Constants.swift */; };
-		E963D9AC2DE1CAC7008D281D /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963D9AB2DE1CAC7008D281D /* AddReminderView.swift */; };
+		E920A2BA2DE1DE60000F9BC5 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E920A2B92DE1DE60000F9BC5 /* NotificationManager.swift */; };
 		E963D9AE2DE1D39D008D281D /* SleepEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963D9AD2DE1D39D008D281D /* SleepEntry.swift */; };
 		E963D9B02DE1D3BD008D281D /* SleepTrackingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963D9AF2DE1D3BD008D281D /* SleepTrackingViewModel.swift */; };
 		E963D9B22DE1D3F4008D281D /* SleepTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963D9B12DE1D3F4008D281D /* SleepTrackingView.swift */; };
@@ -62,7 +61,6 @@
 		2600128E2D78E7AC0004EDB0 /* BlogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogViewModel.swift; sourceTree = "<group>"; };
 		260012922D78E7EA0004EDB0 /* BabyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyView.swift; sourceTree = "<group>"; };
 		2600129B2D78E9090004EDB0 /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
-		2600129D2D78E93C0004EDB0 /* ReminderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailView.swift; sourceTree = "<group>"; };
 		2600129F2D78E9750004EDB0 /* BabyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyDetailView.swift; sourceTree = "<group>"; };
 		260012A22D78E9B50004EDB0 /* BlogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogView.swift; sourceTree = "<group>"; };
 		260012A42D78E9D20004EDB0 /* BlogDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogDetailView.swift; sourceTree = "<group>"; };
@@ -71,7 +69,7 @@
 		260012AC2D78EA950004EDB0 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		260012AE2D78EAC40004EDB0 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		260012B12D78EAEC0004EDB0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		E963D9AB2DE1CAC7008D281D /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
+		E920A2B92DE1DE60000F9BC5 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		E963D9AD2DE1D39D008D281D /* SleepEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepEntry.swift; sourceTree = "<group>"; };
 		E963D9AF2DE1D3BD008D281D /* SleepTrackingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackingViewModel.swift; sourceTree = "<group>"; };
 		E963D9B12DE1D3F4008D281D /* SleepTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackingView.swift; sourceTree = "<group>"; };
@@ -149,6 +147,7 @@
 				E963D9B62DE1D6DF008D281D /* FeedingEntry.swift */,
 				E963D9BC2DE1D872008D281D /* Exercise.swift */,
 				E963D9C22DE1D93D008D281D /* BookToyItem.swift */,
+				E920A2B92DE1DE60000F9BC5 /* NotificationManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -197,8 +196,6 @@
 			isa = PBXGroup;
 			children = (
 				2600129B2D78E9090004EDB0 /* ReminderView.swift */,
-				2600129D2D78E93C0004EDB0 /* ReminderDetailView.swift */,
-				E963D9AB2DE1CAC7008D281D /* AddReminderView.swift */,
 			);
 			path = Reminder;
 			sourceTree = "<group>";
@@ -320,7 +317,6 @@
 				260012A82D78EA050004EDB0 /* SettingsView.swift in Sources */,
 				260012AF2D78EAC40004EDB0 /* NotificationService.swift in Sources */,
 				260012822D78E6C10004EDB0 /* ReminderModel.swift in Sources */,
-				2600129E2D78E93C0004EDB0 /* ReminderDetailView.swift in Sources */,
 				260012B22D78EAEC0004EDB0 /* Constants.swift in Sources */,
 				E963D9C32DE1D93D008D281D /* BookToyItem.swift in Sources */,
 				2600128B2D78E76A0004EDB0 /* ReminderViewModel.swift in Sources */,
@@ -337,7 +333,7 @@
 				260012802D78E6A30004EDB0 /* BabyModel.swift in Sources */,
 				E963D9C72DE1D970008D281D /* BooksToysView.swift in Sources */,
 				E963D9AE2DE1D39D008D281D /* SleepEntry.swift in Sources */,
-				E963D9AC2DE1CAC7008D281D /* AddReminderView.swift in Sources */,
+				E920A2BA2DE1DE60000F9BC5 /* NotificationManager.swift in Sources */,
 				E963D9C12DE1D8B0008D281D /* ExerciseTrackingView.swift in Sources */,
 				E963D9BB2DE1D72E008D281D /* FeedingTrackingView.swift in Sources */,
 				260012A02D78E9750004EDB0 /* BabyDetailView.swift in Sources */,
