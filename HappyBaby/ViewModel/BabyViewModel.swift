@@ -15,7 +15,7 @@ class BabyTrackingViewModel: ObservableObject {
             BabyItem(title: "Beslenme Takibi", imageName: "feeding_icon", destination: AnyView(FeedingTrackingView()))
         ]),
         BabyCategory(title: "ÖNERİLER", items: [
-            BabyItem(title: "Oyun Ve Egzersiz", imageName: "exercise_icon", destination: AnyView(ExerciseView())),
+            BabyItem(title: "Oyun Ve Egzersiz", imageName: "exercise_icon", destination: AnyView(ExerciseTrackingView())),
             BabyItem(title: "Kitap Ve Oyuncaklar", imageName: "books_toys_icon", destination: AnyView(BooksToysView()))
         ])
     ]
