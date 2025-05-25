@@ -29,7 +29,7 @@ struct LoginView: View {
                             .foregroundColor(.gray)
 
                         VStack(spacing: 15) {
-                            // E-posta ve Şifre Girişi
+                        // E-posta ve Şifre Girişi
                             TextField("Enter your email", text: $viewModel.email)
                                 .padding()
                                 .background(RoundedRectangle(cornerRadius: 12).fill(Color.white).shadow(radius: 2))
