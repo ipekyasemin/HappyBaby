@@ -1,8 +1,10 @@
-//
-//  BabyModel.swift
-//  HappyBaby
-//
-//  Created by yasemin ipek on 5.03.2025.
-//
-
 import Foundation
+
+struct BlogPost: Identifiable, Codable {
+    var id: String
+    var title: String
+    var category: String
+    var imageURL: String
+    var isSaved: Bool = false
+}
+

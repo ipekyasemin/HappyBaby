@@ -13,7 +13,7 @@ struct HappyBabyApp: App {
         WindowGroup {
 
           //  ContentView()
-          BabyInformationView()
+          SettingsView()
             
 
           

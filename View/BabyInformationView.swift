@@ -56,9 +56,11 @@ struct BabyInformationView: View {
                                 .opacity(0.9)
                                 .frame(width: width*0.95)
                                 .clipShape(RoundedRectangle(cornerRadius: 50))
+                        
                         )
                         .padding(.horizontal, width * 0.04) // Yan boşluklar
                         .shadow(color: .gray, radius: 10, x: 0, y: 5)
+                      
                     }
                     .padding(.bottom, height * 0.1)
                     .padding(.top, height * 0.03)
