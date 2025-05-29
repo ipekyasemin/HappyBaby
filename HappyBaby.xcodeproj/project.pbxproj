@@ -29,7 +29,26 @@
 		260012AA2D78EA2F0004EDB0 /* SettingsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012A92D78EA2F0004EDB0 /* SettingsDetailView.swift */; };
 		260012AD2D78EA950004EDB0 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012AC2D78EA950004EDB0 /* APIService.swift */; };
 		260012AF2D78EAC40004EDB0 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012AE2D78EAC40004EDB0 /* NotificationService.swift */; };
-		260012B22D78EAEC0004EDB0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012B12D78EAEC0004EDB0 /* Constants.swift */; };
+		260012B92D8A93CA0004EDB0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012B82D8A93CA0004EDB0 /* LoginView.swift */; };
+		260012BB2D8A93DD0004EDB0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012BA2D8A93DD0004EDB0 /* SignUpView.swift */; };
+		260012C12D8A9A310004EDB0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012C02D8A9A310004EDB0 /* LoginViewModel.swift */; };
+		260012C32D8A9A4A0004EDB0 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012C22D8A9A4A0004EDB0 /* SignUpViewModel.swift */; };
+		260012C92D8AB3070004EDB0 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012C82D8AB3070004EDB0 /* LoginModel.swift */; };
+		260012D12D8AB4600004EDB0 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012D02D8AB4600004EDB0 /* SignUpModel.swift */; };
+		260012D42D8ACAC70004EDB0 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012D32D8ACAC70004EDB0 /* Colors.swift */; };
+		260012D62D8ACADC0004EDB0 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012D52D8ACADC0004EDB0 /* Fonts.swift */; };
+		260012DA2D8ACBED0004EDB0 /* BabyInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012D92D8ACBED0004EDB0 /* BabyInformation.swift */; };
+		260012DC2D8ACC0F0004EDB0 /* BabyInformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012DB2D8ACC0F0004EDB0 /* BabyInformationViewModel.swift */; };
+		260012DE2D8ACC490004EDB0 /* BabyInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260012DD2D8ACC490004EDB0 /* BabyInformationView.swift */; };
+		2657C4252D90197700E8AC1D /* ForgotPasswordModel.swift     .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2657C4242D90197700E8AC1D /* ForgotPasswordModel.swift     .swift */; };
+		2657C4272D90199400E8AC1D /* VerifCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2657C4262D90199400E8AC1D /* VerifCodeModel.swift */; };
+		2657C4292D9019B800E8AC1D /* SetPasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2657C4282D9019B800E8AC1D /* SetPasswordModel.swift */; };
+		2657C42B2D901A7600E8AC1D /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2657C42A2D901A7600E8AC1D /* ForgotPasswordViewModel.swift */; };
+		2657C42D2D901A9700E8AC1D /* VerifyCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2657C42C2D901A9700E8AC1D /* VerifyCodeViewModel.swift */; };
+		2657C42F2D901AB500E8AC1D /* SetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2657C42E2D901AB500E8AC1D /* SetPasswordViewModel.swift */; };
+		2657C4312D901ADB00E8AC1D /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2657C4302D901ADB00E8AC1D /* ForgotPasswordView.swift */; };
+		2657C4332D901AF800E8AC1D /* VerifyCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2657C4322D901AF800E8AC1D /* VerifyCodeView.swift */; };
+		2657C4352D901B1700E8AC1D /* SetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2657C4342D901B1700E8AC1D /* SetPasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,7 +75,26 @@
 		260012A92D78EA2F0004EDB0 /* SettingsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDetailView.swift; sourceTree = "<group>"; };
 		260012AC2D78EA950004EDB0 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		260012AE2D78EAC40004EDB0 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
-		260012B12D78EAEC0004EDB0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		260012B82D8A93CA0004EDB0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		260012BA2D8A93DD0004EDB0 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		260012C02D8A9A310004EDB0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		260012C22D8A9A4A0004EDB0 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		260012C82D8AB3070004EDB0 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		260012D02D8AB4600004EDB0 /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
+		260012D32D8ACAC70004EDB0 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		260012D52D8ACADC0004EDB0 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		260012D92D8ACBED0004EDB0 /* BabyInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyInformation.swift; sourceTree = "<group>"; };
+		260012DB2D8ACC0F0004EDB0 /* BabyInformationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyInformationViewModel.swift; sourceTree = "<group>"; };
+		260012DD2D8ACC490004EDB0 /* BabyInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyInformationView.swift; sourceTree = "<group>"; };
+		2657C4242D90197700E8AC1D /* ForgotPasswordModel.swift     .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ForgotPasswordModel.swift     .swift"; sourceTree = "<group>"; };
+		2657C4262D90199400E8AC1D /* VerifCodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifCodeModel.swift; sourceTree = "<group>"; };
+		2657C4282D9019B800E8AC1D /* SetPasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPasswordModel.swift; sourceTree = "<group>"; };
+		2657C42A2D901A7600E8AC1D /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		2657C42C2D901A9700E8AC1D /* VerifyCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeViewModel.swift; sourceTree = "<group>"; };
+		2657C42E2D901AB500E8AC1D /* SetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPasswordViewModel.swift; sourceTree = "<group>"; };
+		2657C4302D901ADB00E8AC1D /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		2657C4322D901AF800E8AC1D /* VerifyCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeView.swift; sourceTree = "<group>"; };
+		2657C4342D901B1700E8AC1D /* SetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +155,12 @@
 				260012812D78E6C10004EDB0 /* ReminderModel.swift */,
 				260012852D78E6F40004EDB0 /* SettingsModel.swift */,
 				260012832D78E6D70004EDB0 /* BlogModel.swift */,
+				260012C82D8AB3070004EDB0 /* LoginModel.swift */,
+				260012D02D8AB4600004EDB0 /* SignUpModel.swift */,
+				2657C4242D90197700E8AC1D /* ForgotPasswordModel.swift     .swift */,
+				2657C4262D90199400E8AC1D /* VerifCodeModel.swift */,
+				2657C4282D9019B800E8AC1D /* SetPasswordModel.swift */,
+				260012D92D8ACBED0004EDB0 /* BabyInformation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -128,6 +172,12 @@
 				2600128C2D78E7880004EDB0 /* SettingsViewModel.swift */,
 				2600128A2D78E76A0004EDB0 /* ReminderViewModel.swift */,
 				2600128E2D78E7AC0004EDB0 /* BlogViewModel.swift */,
+				260012C02D8A9A310004EDB0 /* LoginViewModel.swift */,
+				260012C22D8A9A4A0004EDB0 /* SignUpViewModel.swift */,
+				260012DB2D8ACC0F0004EDB0 /* BabyInformationViewModel.swift */,
+				2657C42A2D901A7600E8AC1D /* ForgotPasswordViewModel.swift */,
+				2657C42C2D901A9700E8AC1D /* VerifyCodeViewModel.swift */,
+				2657C42E2D901AB500E8AC1D /* SetPasswordViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -135,10 +185,12 @@
 		260012902D78E7BA0004EDB0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				260012B72D8A938D0004EDB0 /* Login */,
 				260012A62D78E9E10004EDB0 /* Settings */,
 				260012A12D78E98E0004EDB0 /* Blog */,
 				2600129A2D78E8E60004EDB0 /* Reminder */,
 				260012912D78E7C80004EDB0 /* Baby */,
+				260012DD2D8ACC490004EDB0 /* BabyInformationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -191,9 +243,30 @@
 		260012B02D78EACB0004EDB0 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				260012B12D78EAEC0004EDB0 /* Constants.swift */,
+				260012D22D8ACAA00004EDB0 /* Constant */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		260012B72D8A938D0004EDB0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				260012B82D8A93CA0004EDB0 /* LoginView.swift */,
+				260012BA2D8A93DD0004EDB0 /* SignUpView.swift */,
+				2657C4302D901ADB00E8AC1D /* ForgotPasswordView.swift */,
+				2657C4322D901AF800E8AC1D /* VerifyCodeView.swift */,
+				2657C4342D901B1700E8AC1D /* SetPasswordView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		260012D22D8ACAA00004EDB0 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				260012D32D8ACAC70004EDB0 /* Colors.swift */,
+				260012D52D8ACADC0004EDB0 /* Fonts.swift */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,27 +339,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2657C42F2D901AB500E8AC1D /* SetPasswordViewModel.swift in Sources */,
 				260012862D78E6F40004EDB0 /* SettingsModel.swift in Sources */,
+				260012D42D8ACAC70004EDB0 /* Colors.swift in Sources */,
 				260012AD2D78EA950004EDB0 /* APIService.swift in Sources */,
 				260012A52D78E9D20004EDB0 /* BlogDetailView.swift in Sources */,
 				260012892D78E7480004EDB0 /* BabyViewModel.swift in Sources */,
 				2600128F2D78E7AC0004EDB0 /* BlogViewModel.swift in Sources */,
+				260012C32D8A9A4A0004EDB0 /* SignUpViewModel.swift in Sources */,
 				260012AA2D78EA2F0004EDB0 /* SettingsDetailView.swift in Sources */,
+				2657C4272D90199400E8AC1D /* VerifCodeModel.swift in Sources */,
+				2657C4312D901ADB00E8AC1D /* ForgotPasswordView.swift in Sources */,
+				260012B92D8A93CA0004EDB0 /* LoginView.swift in Sources */,
+				260012C12D8A9A310004EDB0 /* LoginViewModel.swift in Sources */,
 				260012722D78E6290004EDB0 /* ContentView.swift in Sources */,
 				260012A82D78EA050004EDB0 /* SettingsView.swift in Sources */,
 				260012AF2D78EAC40004EDB0 /* NotificationService.swift in Sources */,
 				260012822D78E6C10004EDB0 /* ReminderModel.swift in Sources */,
 				2600129E2D78E93C0004EDB0 /* ReminderDetailView.swift in Sources */,
-				260012B22D78EAEC0004EDB0 /* Constants.swift in Sources */,
+				260012DA2D8ACBED0004EDB0 /* BabyInformation.swift in Sources */,
 				2600128B2D78E76A0004EDB0 /* ReminderViewModel.swift in Sources */,
+				260012BB2D8A93DD0004EDB0 /* SignUpView.swift in Sources */,
 				260012A32D78E9B50004EDB0 /* BlogView.swift in Sources */,
 				2600129C2D78E9090004EDB0 /* ReminderView.swift in Sources */,
 				260012932D78E7EA0004EDB0 /* BabyView.swift in Sources */,
 				260012702D78E6290004EDB0 /* HappyBabyApp.swift in Sources */,
+				2657C4292D9019B800E8AC1D /* SetPasswordModel.swift in Sources */,
+				260012DC2D8ACC0F0004EDB0 /* BabyInformationViewModel.swift in Sources */,
+				260012D62D8ACADC0004EDB0 /* Fonts.swift in Sources */,
 				260012802D78E6A30004EDB0 /* BabyModel.swift in Sources */,
+				260012C92D8AB3070004EDB0 /* LoginModel.swift in Sources */,
+				2657C4332D901AF800E8AC1D /* VerifyCodeView.swift in Sources */,
+				2657C42D2D901A9700E8AC1D /* VerifyCodeViewModel.swift in Sources */,
 				260012A02D78E9750004EDB0 /* BabyDetailView.swift in Sources */,
+				260012D12D8AB4600004EDB0 /* SignUpModel.swift in Sources */,
+				2657C4352D901B1700E8AC1D /* SetPasswordView.swift in Sources */,
 				260012842D78E6D70004EDB0 /* BlogModel.swift in Sources */,
+				2657C42B2D901A7600E8AC1D /* ForgotPasswordViewModel.swift in Sources */,
 				2600128D2D78E7880004EDB0 /* SettingsViewModel.swift in Sources */,
+				260012DE2D8ACC490004EDB0 /* BabyInformationView.swift in Sources */,
+				2657C4252D90197700E8AC1D /* ForgotPasswordModel.swift     .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
