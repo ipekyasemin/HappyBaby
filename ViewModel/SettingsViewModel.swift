@@ -8,16 +8,3 @@
 
 import Foundation
 
-<<<<<<< HEAD
-
-var x = 5
-
-var y = 5
-
-
-
-var sonuc = x + y
-
-
-=======
->>>>>>> main
