@@ -11,13 +11,8 @@ import SwiftUI
 struct HappyBabyApp: App {
     var body: some Scene {
         WindowGroup {
-<<<<<<< HEAD
-          //  ContentView()
+            // ContentView()   // İstersen yorum satırı olarak bırakabilirsin
             LoginView()
-            
-=======
-            LoginView()
->>>>>>> main
         }
     }
 }
